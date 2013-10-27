@@ -6,6 +6,6 @@ module.exports = {
 	},
 	app: {
 		to: "+447725989820",
-		spamLimit: 5 * 60 * 1000 // 5 minutes
+		spamLimit: 2 * 60 * 1000 // 2 minutes
 	}
 };
