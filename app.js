@@ -43,9 +43,10 @@ app.get('/users', user.list);
 
 // handle a POST request to send a text message.  This is sent via ajax on our
 // home page
-app.get('/message', function(request, response) {
+app.post('/message', function(request, response) {
+
+  // get the current time and check when the last message was sent
   var now = (new Date()).getTime();
-  
   if (request.session.lastSent && request.session.lastSent + config.app.spamLimit > now) {
     response.send('Only one sms per '+config.app.spamLimit+"ms allowed");
     return;
