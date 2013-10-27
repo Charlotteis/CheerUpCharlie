@@ -9,6 +9,7 @@ Following guides and using the internet; this led me to use Express.js to struct
 I'd say it took me about 6-8 hours accross two days to get this sorted.
 
 What I used:
+==============
 
 Kuler for my colours - https://kuler.adobe.com
 
@@ -33,6 +34,7 @@ After I finished my application, I actually found this: http://quest.twilio.com/
 
 
 Want to see a working version and send me something nice?
+===
 
 http://cheerupcharlie.herokuapp.com
 
