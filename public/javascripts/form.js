@@ -8,12 +8,6 @@ $('form button').on('click', function(e) {
     $.ajax(url, {
         method:'POST',
         dataType:'text',
-        success: function(data) {
-            showFlash(data);
-        },
-        error: function(jqxhr) {
-            alert('There was an error sending a request to the server :(');
-        }
     });
 
     $("#image").attr('src',"images/happycharlie.png");
