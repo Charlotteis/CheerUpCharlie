@@ -40,7 +40,7 @@ app.post('/message', function(request, response) {
     client.sendSms({
         to:'+447725989820',
 				from:'+441772367539',
-				body:'Charlotte! You are Amazeballs!'
+				body: request.param('body')
     }, function(err, data) {
         // When we get a response from Twilio, respond to the HTTP POST request
         response.send('Message is inbound!');

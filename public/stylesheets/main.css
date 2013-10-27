@@ -22,7 +22,7 @@ p {
 }
 
 #changetext {
-	
+
 }
 
 img {
@@ -34,6 +34,19 @@ img {
 
 .a500 {
 	width: 50%;
+}
+
+input {
+	display: block;
+	width: 45%;
+	margin:0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+	height: 40px;
+}
+
+::-webkit-input-placeholder {
+		font-style: italic;
 }
 
 #quote {

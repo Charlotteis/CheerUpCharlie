@@ -8,6 +8,9 @@ $('form button').on('click', function(e) {
     $.ajax(url, {
         method:'POST',
         dataType:'text',
+        data:{
+            body:$('#body').val()
+        },
     });
 
     $("#image").attr('src',"images/happycharlie.png");

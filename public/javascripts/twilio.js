@@ -5,7 +5,7 @@ var client = require('twilio')('AC22a2fa071c05f477a7a0247f84aa93ad', '271eb4ed8c
 client.sendSms({
 to:'+447725989820',
 from:'+441772367539',
-body:'Charlotte! You are Amazeballs!'
+body: request.param('body')
 }, function(error, message) {
 if (!error) {
 console.log('Success! The SID for this SMS message is:');
