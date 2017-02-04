@@ -1,6 +1,8 @@
 CheerUpCharlie
 ==============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Charlotteis/CheerUpCharlie.svg)](https://greenkeeper.io/)
+
 This is my first JavaScript Application!
 I wanted to play with the Twilio API to see how it works, and use my first API. I also have six Twilio t-shirts so I can actually wear them and not pretend to know what it does anymore.
 
